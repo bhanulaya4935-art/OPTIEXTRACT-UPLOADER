@@ -1,3 +1,6 @@
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 mkdir optiextract-uploader
 cd optiextract-uploader
 mkdir backend frontend
