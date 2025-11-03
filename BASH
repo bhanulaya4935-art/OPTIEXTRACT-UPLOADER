@@ -1,6 +1,8 @@
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-mkdir optiextract-uploader
-cd optiextract-uploader
-mkdir backend frontend
+git init
+git add .
+git commit -m "OptiExtract take-home solution: file uploader + tracker"
+# Create repository on GitHub (via web UI) named e.g. optiextract-uploader
+# Then set remote URL (replace <your-remote-url>):
+git remote add origin https://github.com/bhanulaya4935-art/optiextract-uploader.git
+git branch -M main
+git push -u origin main
